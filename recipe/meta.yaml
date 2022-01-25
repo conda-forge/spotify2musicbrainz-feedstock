@@ -11,7 +11,7 @@ source:
   sha256: b97bc6076828586cff6b1890dcf6ed21b32ea8f9864766e4e33e3327bb26446a
 
 build:
-  number: 1
+  number: 2
   noarch: python
   entry_points:
     - spotify2musicbrainz=spotify2musicbrainz:main
@@ -41,6 +41,7 @@ about:
   summary: An aid to add information from Spotify to MusicBrainz.
   license: GPL-3.0-or-later
   license_file: LICENSE.md
+  dev_url: https://gitlab.com/Freso/spotify2musicbrainz
 
 extra:
   recipe-maintainers:
